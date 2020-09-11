@@ -6,6 +6,10 @@ eureka:
     hostname: eureka8761.com
   client:
     registerWithEureka: true
-    fetchRegistry: true
+    fetchRegistry: false
     serviceUrl:
       defaultZone: http://eureka8762.com:8762/eureka/
+
+spring:
+  application:
+    name: Eureka-Cluster
